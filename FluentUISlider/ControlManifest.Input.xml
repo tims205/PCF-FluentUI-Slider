@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<manifest>
+  <control namespace="SampleNamespace" constructor="FluentUISlider" version="0.0.1" display-name-key="FluentUISlider" description-key="FluentUISlider description" control-type="standard">
+   
+    <!-- property node identifies a specific, configurable piece of data that the control expects from CDS -->
+    <property name="myNumber" display-name-key="myNumber" description-key="myNumber" of-type="Whole.None" usage="bound" required="true" />
+
+    <resources>
+      <code path="index.ts" order="1"/>
+      <!-- UNCOMMENT TO ADD MORE RESOURCES
+      <css path="css/FluentUISlider.css" order="1" />
+      <resx path="strings/FluentUISlider.1033.resx" version="1.0.0" />
+      -->
+    </resources>
+
+  </control>
+</manifest>
